@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "build": "cat node_modules/ngraph.forcelayout/dist/ngraph.forcelayout2d.js > dist/run.js && browserify -s run index.js >> dist/run.js"
+  },
+  "dependencies": {
+    "ngraph.forcelayout": "^3.1.0",
+    "ngraph.graph": "^19.1.0",
+    "panzoom": "^9.4.2",
+    "simplesvg": "^0.1.1"
+  },
+  "devDependencies": {
+    "browserify": "^17.0.0"
+  }
+}
